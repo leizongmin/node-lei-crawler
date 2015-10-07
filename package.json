@@ -1,0 +1,29 @@
+{
+  "name": "lei-crawler",
+  "version": "0.0.1",
+  "description": "simple crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leizongmin/node-lei-crawler.git"
+  },
+  "keywords": [
+    "crawler",
+    "spider"
+  ],
+  "author": "Zongmin Lei <leizongmin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leizongmin/node-lei-crawler/issues"
+  },
+  "homepage": "https://github.com/leizongmin/node-lei-crawler#readme",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "debug": "^2.2.0",
+    "lei-utils": "^1.0.8",
+    "request": "^2.64.0"
+  }
+}
