@@ -4,6 +4,8 @@
  * @author Zongmin Lei <leizongmin@gmail.com>
  */
 
+exports.utils = require('./lib/utils');
+
 /*
 var request = simpleRequest();
 function callback (err, body) {
