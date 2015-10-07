@@ -15,4 +15,5 @@ request({url: 'http://baidu.com'}, callback);
 */
 exports.simpleRequest = require('./lib/request');
 
+exports.simpleStore = require('./lib/store');
 
