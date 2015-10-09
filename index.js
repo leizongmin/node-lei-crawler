@@ -19,8 +19,8 @@ exports.forEachURL = forEachURL;
 
 /*
 var request = simpleRequest();
-function callback (err, body) {
-  console.log(err, body && body.length);
+function callback (err, contentType, body, $) {
+  console.log(err, contentType, body && body.length, $);
 }
 request({url: 'http://baidu.com'}, callback);
 request({url: 'http://baidu.com'}, callback);
