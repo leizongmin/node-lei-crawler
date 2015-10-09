@@ -4,7 +4,16 @@
  * @author Zongmin Lei <leizongmin@gmail.com>
  */
 
-exports.utils = require('./lib/utils');
+var utils = require('./lib/utils');
+var simpleRequest = require('./lib/request');
+var simpleStore = require('./lib/store');
+var collectURLs = require('./lib/collect_urls');
+
+exports.utils = utils;
+exports.simpleRequest = simpleRequest;
+exports.simpleStore = simpleStore;
+exports.collectURLs = collectURLs;
+
 
 /*
 var request = simpleRequest();
@@ -15,12 +24,9 @@ request({url: 'http://baidu.com'}, callback);
 request({url: 'http://baidu.com'}, callback);
 request({url: 'http://baidu.com'}, callback);
 */
-exports.simpleRequest = require('./lib/request');
-
-exports.simpleStore = require('./lib/store');
 
 /*
-exports.collectURLs({
+collectURLs({
   name: 't20151007',
   store: exports.simpleStore()
 }).start('http://ucdok.com', function (err) {
@@ -28,4 +34,11 @@ exports.collectURLs({
   process.exit();
 });
 */
-exports.collectURLs = require('./lib/collect_urls');
+
+/*
+var store = simpleStore({db: 8});
+store.sAdd('a', [1, 2, 3, 4], function (err) {
+  if (err) throw err;
+  store.sInter('a', [1, 3, 5, 7], console.log);
+});
+*/
