@@ -28,7 +28,7 @@ request({url: 'http://baidu.com'}, callback);
 /*
 collectURLs({
   name: 't20151007',
-  store: exports.simpleStore()
+  store: exports.simpleStore({db: 8})
 }).start('http://ucdok.com', function (err) {
   console.log('done [err=%s]', err);
   process.exit();
