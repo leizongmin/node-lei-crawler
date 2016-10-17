@@ -25,7 +25,7 @@
     "cheerio": "^0.20.0",
     "debug": "^2.2.0",
     "ioredis": "^2.4.0",
-    "lei-utils": "^2.1.0",
+    "lei-utils": "^2.2.0",
     "request": "^2.64.0"
   }
 }
