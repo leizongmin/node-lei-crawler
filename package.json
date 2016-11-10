@@ -23,7 +23,7 @@
   "dependencies": {
     "async": "^2.1.2",
     "cheerio": "^0.22.0",
-    "debug": "^2.2.0",
+    "debug": "^2.3.2",
     "ioredis": "^2.4.0",
     "lei-utils": "^3.0.1",
     "request": "^2.76.0"
