@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/leizongmin/node-lei-crawler#readme",
   "dependencies": {
-    "async": "^2.1.2",
+    "async": "^2.4.1",
     "cheerio": "^0.22.0",
     "debug": "^2.2.0",
     "ioredis": "^2.4.0",
