@@ -1,4 +1,6 @@
 # lei-crawler
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/leizongmin/node-lei-crawler.svg)](https://greenkeeper.io/)
 简单爬虫工具
 
 
